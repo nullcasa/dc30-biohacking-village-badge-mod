@@ -14,7 +14,7 @@ Inside I found a decade counter used to cycle through the health indicator LEDs,
 
 
 <a href="https://archive.org/download/dc30-biohacking-village-badge-mod/unmodified-board.jpg">
-<img src="https://archive.org/download/dc30-biohacking-village-badge-mod/unmodified-board.jpg" width="640"/>
+<img src="https://archive.org/download/dc30-biohacking-village-badge-mod/unmodified-board-640.jpg" width="640"/>
 </a>
 
 
@@ -22,7 +22,7 @@ Initially I thought I'd add or modify the debouncing circuitry and be done with 
 
 
 <a href="https://archive.org/download/dc30-biohacking-village-badge-mod/desoldered-components.jpg">
-<img src="https://archive.org/download/dc30-biohacking-village-badge-mod/desoldered-components.jpg" width="640"/>
+<img src="https://archive.org/download/dc30-biohacking-village-badge-mod/desoldered-components-640.jpg" width="640"/>
 </a>
 
 
@@ -46,15 +46,15 @@ I used a multimeter to check continuity and establish which pads the microntroll
 
 
 <a href="https://archive.org/download/dc30-biohacking-village-badge-mod/components-laid-out.jpg">
-<img src="https://archive.org/download/dc30-biohacking-village-badge-mod/components-laid-out.jpg" width="640"/>
+<img src="https://archive.org/download/dc30-biohacking-village-badge-mod/components-laid-out-640.jpg" width="640"/>
 </a>
 
 
-And drew up a connection diagram to follow during assembly. I was particularly happy with being able to re-use the RC debounce circuit for input current limiting and pulldown by swapping in a couple 0603 resistors that I had on hand.
+I drew up a connection diagram to follow during assembly. I was particularly happy with being able to re-use the RC debounce circuit for input current limiting and pulldown by swapping in a couple 0603 resistors that I had on hand.
 
 
 <a href="https://archive.org/download/dc30-biohacking-village-badge-mod/desoldered-board.jpg">
-<img src="https://archive.org/download/dc30-biohacking-village-badge-mod/desoldered-board.jpg" width="640"/>
+<img src="https://archive.org/download/dc30-biohacking-village-badge-mod/desoldered-board-640.jpg" width="640"/>
 </a>
 
 
@@ -62,12 +62,12 @@ Much dodgy soldering and a little gluing later, and the board now performed as d
 
 
 <a href="https://archive.org/download/dc30-biohacking-village-badge-mod/final-soldering-1.jpg">
-<img src="https://archive.org/download/dc30-biohacking-village-badge-mod/final-soldering-1.jpg" width="640"/>
+<img src="https://archive.org/download/dc30-biohacking-village-badge-mod/final-soldering-1-640.jpg" width="640"/>
 </a>
 
 
 <a href="https://archive.org/download/dc30-biohacking-village-badge-mod/final-soldering-2.jpg">
-<img src="https://archive.org/download/dc30-biohacking-village-badge-mod/final-soldering-2.jpg" width="640"/>
+<img src="https://archive.org/download/dc30-biohacking-village-badge-mod/final-soldering-2-640.jpg" width="640"/>
 </a>
 
 
