@@ -7,7 +7,7 @@ The copy I got to play with had some issues with the hit detection, with hearts 
 Here's a demonstration of the badge in its initial state, and disassembly.
 
 
-<video src="https://archive.org/download/dc30-biohacking-village-badge-mod/initial-stte.mp4 controls="controls" style="max-width:640px"></video>
+<video src="https://archive.org/download/dc30-biohacking-village-badge-mod/initial-state.mp4" controls="controls" style="max-width:640px"></video>
 
 
 Inside I found a decade counter used to cycle through the health indicator LEDs, and an RC circuit and schmitt trigger for debouncing hits from the tweezers. I also saw an unpopulated spot for a buzzer, and suddenly really wanted a buzzer.
@@ -39,7 +39,7 @@ I dug a switch, buzzer, and ATtiny85 microcontroller out of my spare parts. I ch
 I prototyped the circuit on a breadboard, and banged out the [firmware code](https://github.com/nullcasa/dc30-biohacking-village-badge-mod/blob/main/src/main.c).
 
 
-<video src="https://archive.org/embed/dc30-biohacking-village-badge-mod/breadboard.mp4" controls="controls" style="max-width:640px"></video>
+<video src="https://archive.org/download/dc30-biohacking-village-badge-mod/breadboard.mp4" controls="controls" style="max-width:640px"></video>
 
 
 I used a multimeter to check continuity and establish which pads the microntroller pins needed to connect to. Then I laid the switch, buzzer, and microcontroller out on the board to make sure they'd fit in the space available.
@@ -73,4 +73,4 @@ Much dodgy soldering and a little gluing later, and the board now performed as d
 
 A lot could be cleaner, but I was able to bang this little project out in a day, and I think the result is a fun game that lives up to the promise of this amazing badge. Thanks to [Badge Pirates](https://badgepirates.com/) and the [Biohacking Village](https://www.villageb.io/)!
 
-<video src="https://archive.org/embed/dc30-biohacking-village-badge-mod/final-state.mp4" controls="controls" style="max-width:640px"></video>
+<video src="https://archive.org/download/dc30-biohacking-village-badge-mod/final-state.mp4" controls="controls" style="max-width:640px"></video>
