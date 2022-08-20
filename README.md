@@ -7,7 +7,7 @@ The copy I got to play with had some issues with the hit detection, with hearts 
 Here's a demonstration of the badge in its initial state, and disassembly.
 
 
-<iframe src="https://archive.org/embed/dc30-biohacking-village-badge-mod/initial-state.mp4" width="640" height="360" frameborder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe>
+<video src="https://archive.org/download/dc30-biohacking-village-badge-mod/initial-stte.mp4 controls="controls" style="max-width:640px">
 
 
 Inside I found a decade counter used to cycle through the health indicator LEDs, and an RC circuit and schmitt trigger for debouncing hits from the tweezers. I also saw an unpopulated spot for a buzzer, and suddenly really wanted a buzzer.
