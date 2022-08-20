@@ -75,3 +75,6 @@ There's a lot that could be cleaner, but I was able to bang this little project 
 
 
 <video src="https://archive.org/download/dc30-biohacking-village-badge-mod/final-state.mp4" controls="controls" style="max-width:100%"></video>
+
+
+<a href="https://twitter.com/nullcasa?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="false">Follow @nullcasa</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
