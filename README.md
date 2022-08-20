@@ -39,7 +39,7 @@ I dug a switch, buzzer, and ATtiny85 microcontroller out of my spare parts. I ch
 I prototyped the circuit on a breadboard, and banged out the [firmware code](https://github.com/nullcasa/dc30-biohacking-village-badge-mod/blob/main/src/main.c).
 
 
-<iframe src="https://archive.org/embed/dc30-biohacking-village-badge-mod/breadboard.mp4" width="640" height="360" frameborder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe>
+<video src="https://archive.org/embed/dc30-biohacking-village-badge-mod/breadboard.mp4" controls="controls" style="max-width:640px">
 
 
 I used a multimeter to check continuity and establish which pads the microntroller pins needed to connect to. Then I laid the switch, buzzer, and microcontroller out on the board to make sure they'd fit in the space available.
@@ -73,4 +73,4 @@ Much dodgy soldering and a little gluing later, and the board now performed as d
 
 A lot could be cleaner, but I was able to bang this little project out in a day, and I think the result is a fun game that lives up to the promise of this amazing badge. Thanks to [Badge Pirates](https://badgepirates.com/) and the [Biohacking Village](https://www.villageb.io/)!
 
-<iframe src="https://archive.org/embed/dc30-biohacking-village-badge-mod/final-state.mp4" width="640" height="360" frameborder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe>
+<video src="https://archive.org/embed/dc30-biohacking-village-badge-mod/final-state.mp4" controls="controls" style="max-width:640px">
