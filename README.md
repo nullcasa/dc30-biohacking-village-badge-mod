@@ -1,3 +1,64 @@
-# Test ABC
+# DEF CON 30 Biohacking Village Badge Mod
 
-123 do re me
+This year's [Biohacking Village](https://www.villageb.io/) badge by [Badge Pirates](https://badgepirates.com/) was hands down one of the coolest badge designs I saw. It's modeled after the classic game Operation, with great artwork, and a slick laser cut insert to hold the implants in their respective body parts.
+
+The copy I got to play with had some issues with the hit detection, with hearts in the health meter lighting up sporadically and in random order. This seemed like a debouncing issue, and I really wanted to fix it to do the awesome design justice.
+
+Here's a demonstration of the badge in its initial state, and disassembly.
+
+
+<iframe src="https://archive.org/embed/dc30-biohacking-village-badge-mod/dc30-biohacking-village-badge-mod-initial-state.mp4" width="640" height="360" frameborder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe>
+
+
+Inside I found a decade counter used to cycle through the health indicator LEDs, and an RC circuit and schmitt trigger for debouncing hits from the tweezers. I also saw an unpopulated spot for a buzzer, and suddenly really wanted a buzzer.
+
+
+![unaltered board](https://archive.org/download/dc30-biohacking-village-badge-mod/unmodified-board.jpg)
+
+
+Initially I thought I'd add or modify the debouncing circuitry and be done with it, but once I got it opened up and reverse engineered I had some new ideas about how I wanted the health meter to behave, and I wanted that buzzer. So I decided to gut the board logic and replace it with a microcontroller. I desoldered everything except the LEDs and power components.
+
+
+< IMAGE: removed components >
+
+
+My goals for new functionality were:
+
+- debounce the tweezers hitting the edges
+- start the health meter with all LEDs lit, and remove one each hit
+- flash the health meter to indicate game over, then reset to full health
+- buzzer to indicate edge hits and game over
+- mute switch for the buzzer
+
+I dug a switch, buzzer, and ATtiny85 microcontroller out of my spare parts. I chose the ATtiny85 because it was small enough to fit in the available space, and had enough GPIO pins to handle 1 input from tweezers, 3 outputs for the health meter LEDs, and a pulse-width modulation output to drive the buzzer.
+
+I prototyped the circuit on a breadboard, and banged out the [firmware code](https://github.com/nullcasa/dc30-biohacking-village-badge-mod/blob/main/src/main.c).
+
+
+< VIDEO: breadboard prototype >
+
+
+I used a multimeter to check continuity and establish which pads the microntroller pins needed to connect to. Then I laid the switch, buzzer, and microcontroller out on the board to make sure they'd fit in the space available.
+
+
+< IMAGE: components laid on desoldered board >
+
+
+And drew up a connection diagram to follow during assembly. I was particularly happy with being able to re-use the RC debounce circuit for input current limiting and pulldown by swapping in a couple 0603 resistors that I had on hand.
+
+
+< IMAGE: board after desoldering and connection diagram >
+
+
+Much dodgy soldering and a little gluing later, and the board now performed as desired.
+
+
+< IMAGE: final soldering 1 >
+
+
+< IMAGE: final soldering 2 >
+
+
+A lot could be cleaner, but I was able to bang this little project out in a day, and I think the result is a fun game that lives up to the promise of this amazing badge. Thanks to [Badge Pirates](https://badgepirates.com/) and the [Biohacking Village](https://www.villageb.io/)!
+
+< VIDEO: final gameplay >
