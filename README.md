@@ -1,6 +1,6 @@
 # DEF CON 30 Biohacking Village Badge Mod
 
-This year's [Biohacking Village](https://www.villageb.io/) badge by [Badge Pirates](https://badgepirates.com/) was hands down one of the coolest badge designs I saw. It's modeled after the classic game Operation, with great artwork, and a slick laser cut insert to hold the implants in their respective body parts.
+This year's [Biohacking Village](https://www.villageb.io/) badge by [Badge Pirates](https://badgepirates.com/) was hands down one of the coolest badge designs I saw. It's modeled after the classic game <a href="https://en.wikipedia.org/wiki/Operation_(game)">Operation</a>, with great artwork, and a slick laser cut insert to hold the implants in their respective body parts.
 
 The copy I got to play with had some issues with the hit detection, with hearts in the health meter lighting up sporadically and in random order. This seemed like a debouncing issue, and I really wanted to fix it to do the awesome design justice.
 
@@ -36,7 +36,7 @@ My goals for new functionality were:
 
 I dug a switch, buzzer, and ATtiny85 microcontroller out of my spare parts. I chose the ATtiny85 because it was small enough to fit in the available space, and had enough GPIO pins to handle 1 input from tweezers, 3 outputs for the health meter LEDs, and a pulse-width modulation output to drive the buzzer.
 
-I prototyped the circuit on a breadboard, and banged out the [firmware code](https://github.com/nullcasa/dc30-biohacking-village-badge-mod/blob/main/src/main.c).
+I prototyped the circuit on a breadboard, and [wrote the code for the microcontroller](https://github.com/nullcasa/dc30-biohacking-village-badge-mod/blob/main/src/main.c).
 
 
 <video src="https://archive.org/download/dc30-biohacking-village-badge-mod/breadboard.mp4" controls="controls" style="max-width:100%"></video>
@@ -71,6 +71,7 @@ Much dodgy soldering and a little gluing later, and the board now performed as d
 </a>
 
 
-A lot could be cleaner, but I was able to bang this little project out in a day, and I think the result is a fun game that lives up to the promise of this amazing badge. Thanks to [Badge Pirates](https://badgepirates.com/) and the [Biohacking Village](https://www.villageb.io/)!
+There's a lot that could be cleaner, but I was able to bang this little project out in a day, and I think the result is a fun game that lives up to the promise of this amazing badge. Thanks [Badge Pirates](https://badgepirates.com/) and [Biohacking Village](https://www.villageb.io/)!
+
 
 <video src="https://archive.org/download/dc30-biohacking-village-badge-mod/final-state.mp4" controls="controls" style="max-width:100%"></video>
