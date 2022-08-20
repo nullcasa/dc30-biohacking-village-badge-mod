@@ -1,5 +1,7 @@
 This year's [Biohacking Village](https://www.villageb.io/) badge by [Badge Pirates](https://badgepirates.com/) was hands down one of the coolest badge designs I saw. It's modeled after the classic game <a href="https://en.wikipedia.org/wiki/Operation_(game)">Operation</a>, with great artwork, a bag of fun little objects to implant, and a slick laser cut insert to hold the implants in their respective body parts.
 
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">It&#39;s here! Our <a href="https://twitter.com/hashtag/dc30?src=hash&amp;ref_src=twsrc%5Etfw">#dc30</a> badge! Check out this interactive operation game designed by <a href="https://twitter.com/BadgePirates?ref_src=twsrc%5Etfw">@BadgePirates</a> 😍 use tweezers to extract charms, but don&#39;t hit the edge ❤️🤍🤍 <a href="https://twitter.com/hashtag/badgelife?src=hash&amp;ref_src=twsrc%5Etfw">#badgelife</a> <a href="https://t.co/NLgbS2vlbu">pic.twitter.com/NLgbS2vlbu</a></p>&mdash; Biohacking Village 🧪 (@DC_BHV) <a href="https://twitter.com/DC_BHV/status/1558173942560333825?ref_src=twsrc%5Etfw">August 12, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
 The copy I got to play with had some issues with the hit detection, with hearts in the health meter lighting up sporadically and in random order. This seemed like a debouncing issue, and I really wanted to fix it to do the awesome design justice.
 
 Here's a demonstration of the badge in its initial state, and disassembly.
@@ -69,7 +71,7 @@ Much dodgy soldering and a little gluing later, and the board now performed as d
 </a>
 
 
-There's a lot that could be cleaner, but I was able to bang this little project out in a day, and I think the result is a fun game that lives up to the promise of this amazing badge. Thanks [Badge Pirates](https://badgepirates.com/) and [Biohacking Village](https://www.villageb.io/)!
+There's a lot that could be cleaner, but I was able to bang this little project out in a day, and I think the result is a fun game that honors this amazing badge design. Thanks [Badge Pirates](https://badgepirates.com/) and [Biohacking Village](https://www.villageb.io/)!
 
 
 <video src="https://archive.org/download/dc30-biohacking-village-badge-mod/final-state.mp4" controls="controls" style="max-width:100%"></video>
