@@ -1,5 +1,3 @@
-# DEF CON 30 Biohacking Village Badge Mod
-
 This year's [Biohacking Village](https://www.villageb.io/) badge by [Badge Pirates](https://badgepirates.com/) was hands down one of the coolest badge designs I saw. It's modeled after the classic game <a href="https://en.wikipedia.org/wiki/Operation_(game)">Operation</a>, with great artwork, a bag of fun little objects to implant, and a slick laser cut insert to hold the implants in their respective body parts.
 
 The copy I got to play with had some issues with the hit detection, with hearts in the health meter lighting up sporadically and in random order. This seemed like a debouncing issue, and I really wanted to fix it to do the awesome design justice.
